@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------
+　基本設定
+---------------------------------------*/
+html{background:#fff;}
+body{
+	font-size:81%;
+	font:13px/1.8 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	color:#000000;
+	text-align:justify;
+	text-justify:distribute;
+}
+/*--------------------------------------
+　大枠囲み
+---------------------------------------*/
+#wrapper{
+	min-width:1020px;
+	margin:0 auto;
+	background-color:#ffffcc;
+}
+#contents{
+	width:1020px;
+	margin:0 auto;
+	overflow:hidden;
+	background: url(../images/bg_menu1.png) repeat-y;
+	background-color:#ffffcc;
+}
+#main{
+	overflow:hidden;
+	width:780px;
+	float:left;
+}
+/*当店のこだわり*/
+#main2{
+	overflow:hidden;
+	width:780px;
+	float:left;
+	background-color:#ffffcc;
+	color:#000000;
+}
+#mbox{
+	width:750px;
+	margin:0 auto;
+	/*background-color:#0000ff;*/
+}
+#m_sub{
+	width:700px;
+	margin:10px auto;
+}
+#side{
+	width:240px;
+	float:left;
+	overflow:auto;
+	color:#000000;
+	background-color:#deb887;
+	background: url(../images/bg_menu1.png) no-repeat;
+}
+#footer{
+	min-width:1020px;
+	overflow:hidden;
+	clear:both;
+	color:#3f312b;
+	background:url(../images/ft_bg1.png) repeat-x;
+	font-size:10px;
+	background-color:#deb887;
+}
+/*--------------------------------------
+　サイド
+---------------------------------------*/
+h1{
+	text-align:center;
+	margin:55px 0 51px;
+}
+#s_txt1{
+	margin:0 auto;
+	width:197px;
+	padding-bottom:65px;
+}
+#tel{font-size:20px;}
+#time{font-size:14px;}
+.s_tit{
+	/*background: url(../images/s_titbg.gif) no-repeat;*/
+	color:#3f312b;
+	padding:3px 0 2px 12px;
+}
+/*--------------------------------------
+　グローバルナビゲーション
+---------------------------------------*/
+#gnavi{
+	overflow:hidden;
+	font-size:16px;
+	margin:0 auto;
+}
+#gnavi li{
+	height:41px;
+}
+#gnavi li a{
+	display:block;
+	color:#3f312b;
+	text-decoration:none;
+	padding:7px 0 0 23px;
+	height:41px;
+}
+#gnavi a:hover{
+color:#ffd700;
+}
+#gnavi li strong{
+	/*color:#000000;*/
+	font-weight:normal;
+}
+#gnavi li strong a{
+	/*color:#000000;*/
+	font-weight:normal;
+}
+.g1{background:url(../images/gnavibg.png) no-repeat;}
+.g2{background:url(../images/gnavibg.png) no-repeat;}
+.g3{background:url(../images/gnavibg.png) no-repeat;}
+.g4{background:url(../images/gnavibg.png) no-repeat;}
+.g5{background:url(../images/gnavibg.png) no-repeat;}
+.g1 a:hover{background:url(../images/gnavibg1.png) no-repeat;}
+.g2 a:hover{background:url(../images/gnavibg1.png) no-repeat;}
+.g3 a:hover{background:url(../images/gnavibg1.png) no-repeat;}
+.g4 a:hover{background:url(../images/gnavibg1.png) no-repeat;}
+.g5 a:hover{background:url(../images/gnavibg1.png) no-repeat;}
+/*.g1 strong a{background:url(../images/gnavibg_on.gif) no-repeat;}
+.g2 strong a{background:url(../images/gnavibg_on.gif) no-repeat;}
+.g3 strong a{background:url(../images/gnavibg_on.gif) no-repeat;}
+.g4 strong a{background:url(../images/gnavibg_on.gif) no-repeat;}
+.g5 strong a{background:url(../images/gnavibg_on.gif) no-repeat;}*/
+/*-------------------------------------
+　メインコンテンツ
+---------------------------------------*/
+/*h-------------------*/
+h2{
+	/*background:url(../images/titbg.png) no-repeat;*/
+	margin-bottom:11px;
+	font-size:15px;
+	clear:both;
+	padding: 3px 0 5px 23px;
+	background-color:#ffd700;
+	color:#000000;
+}
+
+#main2 h2{
+	color:#ffd700;
+	font-weight:bold;
+	background-color:#3f312b;
+}
+/*トップ-メイン画像-----*/
+#visual{
+	margin:0 auto;
+	width:980px;
+	/*background:url(../images/mbg.gif) center top no-repeat;*/
+	padding-bottom:11px;
+}
+/*トップ-新着情報-----*/
+.news dt{
+	float:left;
+	clear:both;
+	line-height:38px;
+}
+.news dd{
+	border-bottom:1px solid #3f312b;
+	padding:0 0 0 97px;
+	line-height:38px;
+}
+.listbox{overflow:hidden;}
+.listbox li{
+	float:left;
+	margin-right:13px;
+}
+a {text-decoration: none;}
+a:link { color: #ffffff; } /* リンクの色 */
+a:visited { color: #ffffff; } /* 済みリンク */
+a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}/* リンク上 */
+a:active { color: #ffffff; }/* onclick */
+/*--------------------------
+フッター
+--------------------------*/
+#footer a{color:#3f312b;}
+#ftbox{
+	width:1020px;
+	margin:0 auto;
+	/*background:url(../images/ft_bg2.gif) no-repeat;*/
+	overflow:hidden;
+	padding-top:14px;
+}
+#ftleft{
+	overflow:hidden;
+	float:left;
+	margin-left:20px;
+}
+#ftright{
+	float:right;
+	text-align:right;
+}
+#ftright li{float:left;}
+/*ページトップ-------*/
+.pagetop{
+	overflow:hidden;
+	margin:0 auto;
+	text-align:right;
+	padding:51px 0 3px;
+	font-size:10px;
+	clear:both;
+}
+.pagetop2{
+	overflow:hidden;
+	margin:0 auto;
+	text-align:right;
+	padding:51px 0 3px;
+	font-size:10px;
+	clear:both;
+}
+.pagetop2 a {text-decoration: none;}
+.pagetop2 a:link { color: #161616; } /* リンクの色 */
+.pagetop2 a:visited { color: #161616; } /* 済みリンク */
+.pagetop2 a:hover {
+	color: #161616;
+	text-decoration: underline;
+}
+/* リンク上 */
+a:active { color: #161616; }/* onclick */
+/*コピーライト-------*/
+.copy{margin-top:95px;}
+.tmp_webfac{padding:29px 0 10px;}
+/*--------------------------------------
+　サブページ
+---------------------------------------*/
+/*メニュー-----*/
+.menu,.entryTable{
+	width="100%"
+	margin-bottom:30px;
+	border:2px solid #3f312b;
+	border-collapse:collapse;
+}
+.menu th,.menu td,.entryTable th,.entryTable td{
+	padding:10px 20px;
+	border:1px solid #3f312b;
+}
+.menu th,.entryTable th{
+	width:10em;
+	background-color:#deb887;
+	text-align:left;
+}
+.menu,.entryTable{
+	margin-bottom:10px;
+}
+/*入力フォームの設定*/
+.entryTable input[type="text"],
+.entryTabke input[type="email"],
+.entryTable texttarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+    font-size:1em;
+}
+.entryTable input[type="text"]:focus,
+.entryTable input[type="email"]:focus,
+.entryTable textarea:focus{
+    /*background-color:#ffeeee;*/
+    outline:none;
+    border-left:5px solid #deb887;
+}
+input,textarea{
+	cursor:pointer;
+}
+/*ボタンの設定*/
+.entryBtns{
+	text-align:center;
+}
+/*ボタンの基本スタイル*/
+.entryBtns input{
+	width:200px;
+    margin:0 10px;
+    padding:10px;
+    background:#fff;
+    border:2px solid #3f312b;
+    border-radius:10px;
+    font-size:1em;
+    -webkit-appearance:none;
+}
+/*送信ボタン用のスタイル*/
+.entryBtns input[type="submit"]{
+    background:#ffd700;
+}
+/*ボタンにマウスが乗った時*/
+.entryBtns input:hover{
+    opacity:0.7;
+}
+/*.menu th{float:left;}*/
+/*.menu td{padding-left:169px;}*/
+/*.menuleft{
+	float:left;
+	width:460px;
+	overflow:hidden;
+}*/
+/*.menuright{
+	float:right;
+	padding-top:6px;
+}*/
+/*アクセス-----*/
+.aclist{margin-bottom:38px;}
+.aclist dt{
+	color:#000000;
+	font-weight:bold;
+	padding:10px;
+	float:left;
+}
+.aclist dd{
+	padding:10px 10px 10px 86px;
+	border-bottom:1px solid #3f312b;
+}
+/*--------------------------
+テキスト・間隔
+--------------------------*/
+/*float-------------------*/
+.left{
+	float:left;
+	display:inline;
+}
+.right{float:right;}
+/*テキスト設定・間隔----------*/
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.clear{clear:both;}
+.over{overflow:hidden;}
+.pd1{
+	width:760px;
+	margin-bottom:14px;
+	border:1px solid #3f312d;
+	border-top:transparent;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+	}
+.pd2{margin-bottom:36px;}
+.pd3{margin-left:36px;}
+.pd4{margin-bottom:14px;}
+.tit1{
+	/*margin-bottom:4px;*/
+	width:760px;
+	border:1px solid #3f312b;
+	border-bottom:transparent;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	/*position:relative;*/
+	text-align:center;
+	font-size:31px;
+	clear:both;
+}
+.gr{
+	margin:40px;
+	text-align:center;
+}
+.tit2{
+	margin:26px 0 4px;
+	font-size:40px;
+	clear:both;
+	line-height:35px;
+}
+.tit2 span{
+	font-size:12px;
+	color:#777777;
+}
+.leftbox{
+	width:442px;
+	float:left;
+}
+.rightbox{
+	width:442px;
+	float:right;
+}
+/* clearfix-------------\*/
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.clearfix {
+display: inline-table;
+min-height: 1%;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
